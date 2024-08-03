@@ -93,7 +93,7 @@ const ProductCard = ({ product }) => {
 				</Heading>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					DZ{product.price}
+					{product.price} DZ
 				</Text>
 
 				<HStack spacing={2}>
